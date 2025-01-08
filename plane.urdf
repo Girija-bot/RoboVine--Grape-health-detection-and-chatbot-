@@ -1,0 +1,10 @@
+
+<robot name="ground_plane">
+    <link name="ground">
+        <visual>
+            <geometry>
+                <plane size="1 1"/>
+            </geometry>
+        </visual>
+    </link>
+</robot>

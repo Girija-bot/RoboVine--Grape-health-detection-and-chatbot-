@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<robot name="plant">
+    <link name="plant_link">
+        <inertial>
+            <mass value="0" /> <!-- Make the plant static -->
+            <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+        </inertial>
+        <visual>
+            <geometry>
+                <box size="0.2 0.2 0.2"/> <!-- Adjust size as needed -->
+            </geometry>
+            <material name="plant_texture">
+                <texture filename="models/plant.jpeg"/>
+            </material>
+        </visual>
+    </link>
+</robot>
